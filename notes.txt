@@ -1,0 +1,23 @@
+1. Introduction to OOP
+Definition:
+    Object-Oriented Programming (OOP) is a programming paradigm based on the concept of "objects", which contain both data and functions. The goal is to structure code in a way that models real-world entities.
+
+Real-life Example:
+    Think of a Car:
+        Data: Brand, Model, Color, Speed
+        Functions: Start(), Stop(), Accelerate()
+In OOP, we represent a car as an object, and its properties and actions are encapsulated in a class.
+
+2. Difference between Procedural and OOP
+
+| Feature          | Procedural Programming          | Object-Oriented Programming         |
+| ---------------- | ------------------------------- | ----------------------------------- |
+| Approach         | Follows a top-down approach     | Follows a bottom-up approach        |
+| Focus            | Focuses on functions/procedures | Focuses on objects                  |
+| Code Reusability | Less                            | High due to classes and inheritance |
+| Example Language | C                               | C++, Java, Python (OOP style)       |
+| Data Security    | Low (global data)               | High (via encapsulation)            |
+
+Example:
+    Procedural: You write calculateSalary() and pass parameters each time.
+    OOP: You create an Employee object with built-in calculateSalary().
